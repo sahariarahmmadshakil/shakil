@@ -97,83 +97,64 @@ body {
 }
 
 @media only screen and (max-width:576px) {
-    .first {
-        order: 2;
-    }
-    .second {
-        order: 1;
-    }
-    .couple-img {
-        position: static;
+    .bg-img {
+        background-image: url('images/bg.png');
         width: 100%;
-        padding-left: 0;
+        min-height: 100vh;
+        overflow: hidden;
     }
-    .couple-img>img {
-        padding: .4rem;
-        width: 100%;
-    }
-    .easter-img-box {
-        width: 213px;
-        margin-left: -2px;
+    .text-img {
+        width: 248px;
+        margin-left: 210px;
     }
     .overflow-img {
-        width: 100%;
-        text-align: center;
-        position: static;
+        margin-left: -290px;
+        margin-top: -83px;
     }
-    .overflow-img>img {
-        padding: .4rem;
-        width: 100%;
+    .easter-img-box {
+        margin-top: 41px !important;
+        margin-left: -171px!important;
     }
     .easter-img {
-        /* margin-top: -20px; */
-        width: 350px !important;
-        padding: 50px 0px !important;
+        margin-top: -145px;
+        width: 120px !important;
     }
     .discount-img {
-        margin-top: -90px;
-        width: 200px;
+        margin-top: -85px !important;
+        margin-left: -190px!important;
+        width: 62px !important;
+    }
+    .overflow-img>img {
+        width: 90px !important;
+    }
+    .couple-img>img {
+        width: 90px !important;
+    }
+    .gift-img {
+        margin-top: -170px !important;
+    }
+    .shop-now {
+        margin-top: 24px!important;
+    }
+    .shop-now p {
+        font-size: 60px;
+        font-style: none;
+        color: #7ddcfa;
+        font-weight: 900;
+        font-family: Net-Mont-Bold;
+    }
+    .last-section a {
+        border-radius: 13px!important;
+        font-size: 12px!important;
+        padding: 3px 27px!important;
+    }
+    .footer-text {
+        font-size: 16px;
+        text-align: center;
     }
 }
 
-@media only screen and (max-width:820px) {
-    .first {
-        order: 2;
-    }
-    .second {
-        order: 1;
-    }
-    .couple-img {
-        position: static;
-        width: 100%;
-        padding-left: 0;
-        text-align: center;
-    }
-    .couple-img>img {
-        padding: .4rem;
-        width: 100%;
-    }
-    .overflow-img {
-        width: 100%;
-        text-align: center;
-        position: static;
-        text-align: center;
-    }
-    .overflow-img>img {
-        padding: .4rem;
-        width: 100%;
-    }
-    .easter-img {
-        margin-top: -100px;
-        width: 400px;
-        margin: 0 auto;
-        display: block;
-    }
-    .discount-img {
-        margin-top: -90px;
-        width: 200px;
-    }
-}
+@media only screen and (max-width:820px) {}
 
 @media only screen and (max-width:1280px) {
     .overflow-img {
